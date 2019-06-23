@@ -1,0 +1,63 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#app {
+    width: 100%;
+    height: 100%;
+}
+h2{
+    background-color:#f2f2f2 ;
+    color: black;
+    margin: 0;
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+}
+form{
+    margin: 5px;
+    margin-top: 10px;
+}
+input{
+    height: 25px;
+}
+#addbtn {
+    display: inline-block;
+    background-color: #008080;
+    color: white;
+    border-radius: 5px;
+    height: 100%;
+    width: 50px;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 2px;
+    border: 1px  #008080 solid;
+}
+#searchbtn {
+    height: 100%;
+    width: 50px;
+    margin-left: 5px;
+    font-size: 16px;
+    padding: 2px;
+    border: 1px grey solid;
+    border-radius: 5px;
+}
+#moviearea ul{
+    margin-left: 5px;
+    display: inline-block;
+    margin-top: 20x;
+    padding: 0;
+    text-align: left;
+    width: 200px;
+}
+#moviearea li {
+    border: 1px grey solid;
+    padding: 5px;
+}
+
+#noMovieFound {
+    margin: 5px;
+    color: grey;
+}
